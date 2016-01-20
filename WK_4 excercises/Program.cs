@@ -10,6 +10,10 @@ namespace WK_4_excercises
     {
         static void Main(string[] args)
         {
+            Car car = new Car();
+            car.Speed = 300;
+            Console.WriteLine("Car speed is {0}", car.Speed);
+            Console.ReadLine();
         }
     }
 }
