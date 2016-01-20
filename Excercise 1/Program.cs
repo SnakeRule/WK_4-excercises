@@ -10,16 +10,17 @@ namespace Excercise_1
     {
         static void Main(string[] args)
         {
-            bool loop = true;
+            int input;
             Elevator elevator = new Elevator();
 
-            Console.WriteLine("Welcome to the elevator");
+            Console.WriteLine("Welcome to the elevator. You can leave the elevator by pressing 0");
             do
             {
                 Console.WriteLine("Elevator is now in floor {0}", elevator.Floor);
                 Console.WriteLine("Choose a floor 1-5");
-                elevator.Floor = int.Parse(Console.ReadLine());
-            } while (loop == true);
+                input = int.Parse(Console.ReadLine());
+                elevator.Floor = input;
+            } while (input != 0);
         }
     }
 }
