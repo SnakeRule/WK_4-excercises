@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+* Copyright (C) Jere-Joonas Valtanen
+*
+* This file is part of JAMK object oriented programming course
+*
+* Created: 22.1.2016
+*Author: Jere-Joonas Valtanen
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
